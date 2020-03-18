@@ -115,11 +115,6 @@ DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,theplatform.com
 DOMAIN-SUFFIX,uplynk.com
 
-# > HBO NOW
-USER-AGENT,HBO%20NOW*
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbonow.com
 
 # > 华文电视
 USER-AGENT,HWTVMobile*
