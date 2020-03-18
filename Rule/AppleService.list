@@ -1,3 +1,10 @@
+# >> iBooks Store download
+DOMAIN,books.itunes.apple.com
+# >> iTunes Store Moveis Trailers
+DOMAIN,hls.itunes.apple.com
+# >> App Store Preview
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
 USER-AGENT,%E5%9C%B0%E5%9B%BE*
 USER-AGENT,%E8%AE%BE%E7%BD%AE*
 USER-AGENT,*com.apple.mobileme.fmip1
