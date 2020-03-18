@@ -1,0 +1,7 @@
+# > Google Voice
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN-KEYWORD,google.com/voice
+
+# > Pandora
+USER-AGENT,Pandora*
+DOMAIN-SUFFIX,pandora.com
