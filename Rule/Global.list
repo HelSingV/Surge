@@ -321,19 +321,9 @@ DOMAIN-SUFFIX,xfinity.com
 DOMAIN-SUFFIX,zattoo.com
 USER-AGENT,Roam*
 
-# (The Most Popular Sites)
-# > Apple
-# >> TestFlight
-DOMAIN,testflight.apple.com
-# >> Apple URL Shortener
-DOMAIN-SUFFIX,appsto.re
-# >> iBooks Store download
-DOMAIN,books.itunes.apple.com
-# >> iTunes Store Moveis Trailers
-DOMAIN,hls.itunes.apple.com
-# >> App Store Preview
-DOMAIN,apps.apple.com
-DOMAIN,itunes.apple.com
+
+
+
 # >> Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com
 # >> Dictionary
