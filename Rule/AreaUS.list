@@ -5,3 +5,14 @@ DOMAIN-KEYWORD,google.com/voice
 # > Pandora
 USER-AGENT,Pandora*
 DOMAIN-SUFFIX,pandora.com
+
+# > Hulu
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
+
+# > ITV
+USER-AGENT,ITV_Player*
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,itvstatic.com
+DOMAIN,itvpnpmobile-a.akamaihd.net
