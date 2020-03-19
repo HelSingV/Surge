@@ -568,6 +568,7 @@ DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,moji.com
 DOMAIN-SUFFIX,moke.com
+
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,mxhichina.com
 DOMAIN-SUFFIX,myqcloud.com
@@ -667,6 +668,7 @@ DOMAIN-SUFFIX,xiaomicp.com
 DOMAIN-SUFFIX,ximalaya.com
 DOMAIN-SUFFIX,xitek.com
 DOMAIN-SUFFIX,xmcdn.com
+
 DOMAIN-SUFFIX,xslb.net
 DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,xunlei.com
@@ -685,5 +687,5 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmz002.com
-
+DOMAIN-SUFFIX,qaz.wtf
 IP-CIDR,1.255.62.0/24,no-resolve
