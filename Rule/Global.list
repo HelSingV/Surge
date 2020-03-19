@@ -1,4 +1,11 @@
 # (GlobalMedia)
+
+# 机场网站
+#极游
+DOMAIN-SUFFIX,jiyou.world
+
+
+
 # (Music)
 # > Deezer
 USER-AGENT,Deezer*
