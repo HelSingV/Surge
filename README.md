@@ -1,8 +1,4 @@
 # Surge
-订阅第三方api转换conf
-
+surge rules and javascripts
 _________________
-
-  网址
-
-bianyuan.xyz
+托管api：bianyuan.xyz
