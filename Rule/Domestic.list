@@ -121,12 +121,16 @@ DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,msecnd.net
 DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,s-microsoft.com
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN,officecdn-microsoft-com.akamaized.net
+DOMAIN-SUFFIX,azure.cn
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,windows.net
 
 # > Sina
 DOMAIN-SUFFIX,sina.com
