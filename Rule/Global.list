@@ -1,8 +1,8 @@
 # (GlobalMedia)
 
 # 机场网站
-#极游
 DOMAIN-SUFFIX,jiyou.world
+DOMAIN-SUFFIX,pub.kaolay.com
 
 # > LINE
 DOMAIN-SUFFIX,lin.ee
