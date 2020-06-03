@@ -1,5 +1,6 @@
-!name=Q-Search
-!desc=Safari Search Add-ons by Neurogram
+#!name=Q-Search.Module
+#!desc=Safari Search Add-ons by Neurogram
+#!system=ios
 
 
 
