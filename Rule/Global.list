@@ -2,8 +2,8 @@
 # (DNS Cache Pollution Protection)
 
 # > 机场网站
-# 1.布丁
 DOMAIN-SUFFIX,pud.kaolay.com
+DOMAIN-SUFFIX,pud.life
 
 # > Google
 DOMAIN-SUFFIX,ampproject.org
