@@ -124,6 +124,17 @@ wb_ad.js = type=http-response,requires-body=1,pattern=^https?://m?api\.weibo\.c(
 # 知乎去广告
 Zhihu.js = type=http-response,requires-body=1,max-size=-1,pattern=^https:\/\/(api|lens|www)\.zhihu\.com\/(moments(\/recommend)?\?(action|feed_type)|topstory\/recommend|.*\/questions|market\/header|people|appview\/(v2|p)\/(answer\/)?\d+\?no\_image\=false(\&article\_fixed\_bottom\=1)?\&X\-SUGER\=|api\/videos\/\d+\/recommend),script-path=https://raw.githubusercontent.com/scomper/Surge/master/Scripts/Zhihu.js,script-update-interval=0
 
+# NetFlix Rate
+nf_rating.js = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+nf_rating.js = type=http-response,requires-body=1,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+
+# JD Price
+jd_price.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+
+# TaoBao Price
+tb_price.js = type=http-request,requires-body=1,pattern=^http://.+/amdc/mobileDispatch,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+tb_price.js = type=http-response,requires-body=1,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+
 [MITM]
-hostname = %APPEND% *.amemv.com, aweme.snssdk.com, *.googlevideo.com, api.rr.tv, buy.itunes.apple.com, *api.smzdm.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ap*.zhihu.com, www.zhihu.com, pic*.zhimg.com, lens.zhihu.com
+hostname = %APPEND% *.amemv.com, aweme.snssdk.com, *.googlevideo.com, api.rr.tv, buy.itunes.apple.com, *api.smzdm.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ap*.zhihu.com, www.zhihu.com, pic*.zhimg.com, lens.zhihu.com, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com
 
