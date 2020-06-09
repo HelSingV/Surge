@@ -21,11 +21,17 @@ URL-REGEX,^http:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
 URL-REGEX,^https?:\/\/(app-)?api\.smzdm\.com\/(v\d\/)?util\/(loading|banner),REJECT
 
 #知乎去广告
-DOMAIN,sugar.zhihu.com,REJECT
-DOMAIN,appcloud2.in.zhihu.com,REJECT
-URL-REGEX,^https:\/\/pic\d\.zhimg\.com\/70\/,REJECT
-URL-REGEX,https:\/\/(api|www)\.zhihu\.com\/(ab|adx|fringe|commercial|ad-style-service|.*(recommendations|extended|featured-comment-ad)|api\/v4\/(brand|mcn|(answer|question)s\/\d+\/meta_related_topics)(\/|\?)),REJECT
-AND,((USER-AGENT,osee2*), (OR,((IP-CIDR,0.0.0.0/0,no-resolve),(IP-CIDR6,::/0,no-resolve)))),REJECT
+
+//SOME MCN INFO MAY BE USEFUL
+//URL-REGEX,https://www.zhihu.com/api/v4/mcn/,REJECT
+
+//DO NOT GET CDN-BASED IP
+DOMAIN,118.89.204.198,REJECT
+
+USER-AGENT,AVOS*,REJECT
+URL-REGEX,https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad),REJECT
+AND,((USER-AGENT,ZhihuHybrid*), (URL-REGEX,.*recommend)),REJECT
+
 
 [URL Rewrite]
 #抖音去水印by Choler
@@ -122,7 +128,12 @@ wb_launch.js = type=http-response,requires-body=1,pattern=^https?://(sdk|wb)app\
 wb_ad.js = type=http-response,requires-body=1,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list),script-path=https://raw.githubusercontent.com/scomper/Surge/master/Scripts/wb_ad.js
 
 # 知乎去广告
-Zhihu.js = type=http-response,requires-body=1,max-size=-1,pattern=^https:\/\/(api|lens|www)\.zhihu\.com\/(moments(\/recommend)?\?(action|feed_type)|topstory\/recommend|.*\/questions|market\/header|people|appview\/(v2|p)\/(answer\/)?\d+\?no\_image\=false(\&article\_fixed\_bottom\=1)?\&X\-SUGER\=|api\/videos\/\d+\/recommend),script-path=https://raw.githubusercontent.com/scomper/Surge/master/Scripts/Zhihu.js,script-update-interval=0
+
+zhihu people = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/people/,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js
+zhihu feed = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/moments/recommend,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js
+zhihu recommend = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/topstory/recommend,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js
+zhihu answer = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/v4/questions,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js
+zhihu link = type=http-request,pattern=https?://link.zhihu.com/\?target=,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20link.js 
 
 # NetFlix Rate
 nf_rating.js = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
@@ -136,5 +147,5 @@ tb_price.js = type=http-request,requires-body=1,pattern=^http://.+/amdc/mobileDi
 tb_price.js = type=http-response,requires-body=1,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 
 [MITM]
-hostname = %APPEND% *.amemv.com, aweme.snssdk.com, *.googlevideo.com, api.rr.tv, buy.itunes.apple.com, *api.smzdm.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, ap*.zhihu.com, www.zhihu.com, pic*.zhimg.com, lens.zhihu.com, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com
+hostname = %APPEND% *.amemv.com, aweme.snssdk.com, *.googlevideo.com, api.rr.tv, buy.itunes.apple.com, *api.smzdm.com, mp.weixin.qq.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, 118.89.204.198, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com
 
