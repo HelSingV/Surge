@@ -1,0 +1,75 @@
+剩余流量：1.84TB = ss, wmsxwd999.men, 10086, encrypt-method=chacha20-ietf, password=ds2SX5, udp-relay=true
+过期时间：2020-11-11 = ss, wmsxwd999.men, 10086, encrypt-method=chacha20-ietf, password=ds2SX5, udp-relay=true
+[V2ray]俄罗斯01-JUST-×0.1-Netflix = vmess, ru01-just-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ru01-just-50.ddns.566366.xyz
+[V2ray]俄罗斯02-ZZ-×2.5-Netflix = vmess, ttk02zz.ddns.566366.xyz, 10099, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ttk02.ddns.566366.xyz
+[V2ray]俄罗斯03-ZZ-×2.5 = vmess, v50-rus-03-zz.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:download-2.wioqop.top
+[V2ray]俄罗斯04-ZZ-×2.5 = vmess, ru02-just-50-zz.ddns.566366.xyz, 51501, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ru02-just-50.ddns.566366.xyz
+[V2ray]印度01-ZZ-×2.5 = vmess, in01-zz.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:download-8.wioqop.top
+[V2ray]印度02-ZZ-×2.5 = vmess, in-50-zz-02.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:010.a5hhf.cn
+[V2ray]台湾01-HiNet-×1-Netflix = vmess, tw.566366.xyz, 545, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:tw.566366.xyz
+[V2ray]台湾02-HiNet-×1-Netflix = vmess, tw-2-50.ddns.566366.xyz, 545, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:tw-2-50.ddns.566366.xyz
+[V2ray]台湾03-HiNet-×1-Netflix = vmess, tw-3-50.ddns.566366.xyz, 545, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:tw-3-50.ddns.566366.xyz
+[V2ray]台湾04-HiNet-×1-Netflix = vmess, tw-4-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:tw-4-50.ddns.566366.xyz
+[V2ray]土耳其-×3-特殊用途-请使用其他节点 = vmess, tr.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:tr.ddns.177588.xyz
+[V2ray]应急节点1-限速 = vmess, v2ray01.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:v2ray01.ddns.566366.xyz
+[V2ray]新加坡60-ZZ-×3-Netflix = vmess, sgzz01-linode.ddns.566366.xyz, 901, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:sgld.ddns.566366.xyz
+[V2ray]新加坡61-ZZ-×3-Netflix = vmess, sgzz02-linode.ddns.566366.xyz, 902, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:sgld.ddns.566366.xyz
+[V2ray]新加坡63-ZZ-×2.5-Netflix = vmess, v50-sg-63-zz.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:download-1.wioqop.top
+[V2ray]新加坡64-ZZ-×2 = vmess, v50-sg-64-zz.ddns.177588.xyz, 864, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:v50-sg-64.ddns.177588.xyz
+[V2ray]日本01-GMO-×0.9-Netflix = vmess, iij.wmsxwd.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:iij.wmsxwd.xyz
+[V2ray]日本02-GMO-×1-Netflix = vmess, gmov201.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:gmov201.ddns.566366.xyz
+[V2ray]日本03-GMO-×1-Netflix = vmess, gmov202.wmsxwd5.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/v2ray, ws-headers=host:gmov202.wmsxwd5.xyz
+[V2ray]日本04-CDN-支持IPV6 = vmess, v2raydjcdn.wmsxwd5.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/v2ray, ws-headers=host:v2raydjcdn.wmsxwd5.xyz, tls=true
+[V2ray]日本05-GMO-×1-Netflix = vmess, jp05-gmo-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp05-gmo-50.ddns.566366.xyz
+[V2ray]日本06-AKS-×1-Netflix = vmess, jp06-gmo-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp06-gmo-50.ddns.566366.xyz
+[V2ray]日本07-GMO-×1-Netflix = vmess, jp07-gmo-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp07-gmo-50.ddns.566366.xyz
+[V2ray]日本08-IDCF-×1-Netflix = vmess, jp08-gmo-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp08-gmo-50.ddns.566366.xyz
+[V2ray]日本09-IDCF-×1-Netflix = vmess, v2ray02.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:v2ray02.ddns.566366.xyz
+[V2ray]日本10-SAK-×0.1-Netflix = vmess, jp16-sak-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp16-sak-50.ddns.566366.xyz
+[V2ray]日本11-IDCF-×1-Netflix = vmess, jp11-gmo-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp11-gmo-50.ddns.566366.xyz, tls=true
+[V2ray]日本12-GMO-×1-Netflix = vmess, jp12-gmo-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp12-gmo-50.ddns.566366.xyz, tls=true
+[V2ray]日本13-GMO-×1-Netflix = vmess, jp13-gmo-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp13-gmo-50.ddns.566366.xyz, tls=true
+[V2ray]日本60-ZZ-NTT-×3-Netflix = vmess, ntt100zz.ddns.wmsxwd5.xyz, 59990, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ntt100.ddns.wmsxwd5.xyz
+[V2ray]日本61-ZZ-NTT-×3-Netflix = vmess, jp61zz.ddns.566366.xyz, 10097, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp61.ddns.566366.xyz
+[V2ray]日本62-ZZ-NTT-×3-Netflix = vmess, jp62zz.ddns.566366.xyz, 10098, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp62.ddns.566366.xyz
+[V2ray]日本63-ZZ-NTT-×3-Netflix = vmess, jp63zz.ddns.566366.xyz, 10099, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:jp63.ddns.566366.xyz
+[V2ray]日本64-ZZ-×2.5 = vmess, down-50-zz-01.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:download-4.wioqop.top
+[V2ray]日本65-ZZ-×2.5-Netflix = vmess, down-50-zz-02.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:download-5.wioqop.top
+[V2ray]日本66-ZZ-×2.5-Netflix = vmess, v50-jp-66-zz.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/download, ws-headers=host:download-6.wioqop.top
+[V2ray]日本67-ZZ-×2.5-Netflix = vmess, zzjp-2.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:006.a5hhf.cn
+[V2ray]电信优化1-×2.4-Netflix = vmess, dxv2-1-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:dxv2-1-50.ddns.566366.xyz
+[V2ray]电信优化2-×2.4-Netflix = vmess, dxv2-2-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:dxv2-2-50.ddns.566366.xyz
+[V2ray]电信优化3-×2.4-Netflix = vmess, dxv2-3-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:dxv2-3-50.ddns.566366.xyz
+[V2ray]电信优化4-×2.4-Netflix = vmess, dxv2-4-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:dxv2-4-50.ddns.566366.xyz
+[V2ray]电信优化5-×2.4-Netflix = vmess, dxv2-5-60.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:dxv2-5-60.ddns.566366.xyz
+[V2ray]电信优化6-×2.4-Netflix = vmess, dxv2-6-60.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:dxv2-6-60.ddns.566366.xyz
+[V2ray]美国01-HE-×0.5-Netflix = vmess, ua-he-50.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ua-he-50.ddns.566366.xyz
+[V2ray]美国02-GIA-×2.5-Netflix = vmess, ua02-v2-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:ua02-v2-50.ddns.566366.xyz
+[V2ray]美国03-GIA-×2.5-Netflix = vmess, ua60-v2-60.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ua60-v2-60.ddns.566366.xyz
+[V2ray]美国04-GIA-×2.5-Netflix = vmess, giav2-95.ddns.566366.xyz, 546, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:giav2-95.ddns.566366.xyz
+[V2ray]美国05-GIA-×2.5-Netflix = vmess, giav2-200-60.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:giav2-200-60.ddns.566366.xyz
+[V2ray]美国06-GIA-×2.5-Netflix = vmess, giav2-200-601.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:giav2-200-601.ddns.566366.xyz
+[V2ray]美国07-GIA-×2.5-Netflix = vmess, giav2-200-602.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:giav2-200-602.ddns.566366.xyz
+[V2ray]美国08-GIA-×2.5-Netflix = vmess, giav2-200-603.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:giav2-200-603.ddns.566366.xyz
+[V2ray]美国09-GIA-×2.5-Netflix = vmess, ua09-v2-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:ua09-v2-50.ddns.566366.xyz
+[V2ray]美国10-GIA-×2.5-Netflix = vmess, ua10.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ua10.ddns.566366.xyz
+[V2ray]美国11-GIA-×2.5-Netflix = vmess, ua11.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ua11.ddns.566366.xyz
+[V2ray]美国30-GT-×0.1-下载专用 = vmess, ua30.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ua30.ddns.566366.xyz
+[V2ray]美国31-MC-×1 = vmess, uamc01.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:uamc01.ddns.566366.xyz
+[V2ray]美国32-MC-×1 = vmess, uamc02.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:uamc02.ddns.566366.xyz
+[V2ray]美国33-MC-×1.5 = vmess, giav2ray.wmsxwd5.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/v2ray, ws-headers=host:giav2ray.wmsxwd5.xyz, tls=true
+[V2ray]联通专用-×1-Netflix = vmess, ltzs.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ltzs.ddns.566366.xyz
+[V2ray]菲律宾-IPC-×1-Netflix = vmess, ipc-1-50.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:ipc-1-50.ddns.566366.xyz
+[V2ray]阿根廷-×5-特殊用途-请使用其他节点 = vmess, argentina.ddns.177588.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:argentina.ddns.177588.xyz
+[V2ray]韩国-ZZ-×2.5 = vmess, kr-1-v2ray-60.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/vvv, ws-headers=host:008.a5hhf.cn
+[V2ray]香港01-HKBN-×1-Netflix = vmess, hkbn.wmsxwd.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hkbn.wmsxwd.xyz
+[V2ray]香港02-HKBN-×1-Netflix = vmess, cml.wmsxwd.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:cml.wmsxwd.xyz
+[V2ray]香港03-HGC-×0.1-Netflix = vmess, hgc.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hgc.ddns.566366.xyz
+[V2ray]香港04-HKT-×0.9-Netflix = vmess, dzhkt.ddns.357159.xyz, 10093, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:dzhkt.ddns.357159.xyz
+[V2ray]香港05-HKT-×1-Netflix = vmess, hkt35.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hkt35.ddns.566366.xyz
+[V2ray]香港06-HKT-×0.9-Netflix = vmess, hk31.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hk31.ddns.566366.xyz
+[V2ray]香港07-HKT-×0.9-Netflix = vmess, hk07.ddns.566366.xyz, 443, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hk07.ddns.566366.xyz
+[V2ray]香港08-HKT-×1-Netflix = vmess, hk08.ddns.566366.xyz, 82, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hk08.ddns.566366.xyz
+[V2ray]香港09-HKT-×1-Netflix = vmess, hkt.wmsxwd.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hkt.wmsxwd.xyz
+[V2ray]香港10-ZZ-×2.5-Netflix = vmess, hgc2zz.ddns.566366.xyz, 80, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:002.a5hhf.cn
+[V2ray]香港11-ZZ-×2-Netflix = vmess, hk06-zz.ddns.177588.xyz, 806, username = 74d6f4aa-fd99-390d-a687-b0e8d9df3f08, ws=true, ws-path=/wmsxwd, ws-headers=host:hk06.ddns.177588.xyz
